@@ -35,3 +35,9 @@ function currentLine(deliLine){
   }
   return textReturn
 }
+
+//write a new array that returns
+function newdayline(){
+  counter = counter+1;
+  deliLine.push(counter)
+}
